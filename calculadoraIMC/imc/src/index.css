@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1: "Lato", sans-serif;
+    --color1: #090e22;
+    --color2: #fff;
+    --color3:  #1d1e33;
+    --color4: #f44236;
+    --color5: #444;
+    --color6: #ccc;
+}
+
+body {
+    font-family: var(--font1);
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--color2);
+}
